@@ -1,12 +1,13 @@
-import { ContainerBox, HoverContainer } from "./components/index";
+import { ContainerBox, HoverContainer,FadeAnimation } from "./components/index";
 
 function App() {
 
 
   return (
-    <div className="bg-gray-500 flex flex-col gap-10 ">
+    <div className="bg-gray-300 flex flex-col gap-10 ">
       <HoverContainer />
       <ContainerBox />
+      <FadeAnimation/>
     </div>
   );
 }
